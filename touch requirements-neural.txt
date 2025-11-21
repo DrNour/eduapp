@@ -1,0 +1,6 @@
+# Neural/extras (install locally only)
+torch==2.2.* --extra-index-url https://download.pytorch.org/whl/cpu
+transformers>=4.43
+bert-score>=0.3.13
+unbabel-comet>=2.2.5
+# BLEURT depends on TF; TF often fails on Cloud. Prefer COMET + BERTScore only.
