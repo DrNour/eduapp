@@ -11,7 +11,7 @@ st.caption("Neural + baseline metrics • Explainable hybrid scoring • English
 
 with st.sidebar:
     st.header("Configuration")
-    enable_neural = st.toggle("Enable neural metrics (COMET/BLEURT/BERTScore)", value=True)
+    enable_neural = st.toggle("Enable neural metrics (COMET/BLEURT/BERTScore)", value=False)
     os.environ["ENABLE_NEURAL"] = "true" if enable_neural else "false"
     weights_path = st.text_input("Weights file", "config/weights.yml")
     if st.button("Reload weights"):
