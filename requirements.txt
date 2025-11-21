@@ -1,8 +1,30 @@
-streamlit>=1.34
-pandas>=2.2
-numpy>=1.26
-scikit-learn>=1.5
-scipy>=1.11
-nltk>=3.8
-rapidfuzz>=3.9
-altair>=5.3
+diff --git a/requirements.txt b/requirements.txt
+index 0000000..1111111 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,15 +1,9 @@
+-streamlit>=1.34
+-pandas>=2.2
+-numpy>=1.26
+-scikit-learn>=1.5
+-scipy>=1.11
+-nltk>=3.8
+-rapidfuzz>=3.9
+-sentence-transformers>=3.0
+-torch>=2.2
+-transformers>=4.43
+-bert-score>=0.3.13
+-# COMET
+-unbabel-comet>=2.2.5
+-# BLEURT (pip package for scorer wrapper; model weights downloaded separately or via TF hub)
+-bleurt-score>=0.0.2
+-# Visualization
+-altair>=5.3
++streamlit>=1.34
++pandas>=2.2
++numpy>=1.26
++scikit-learn>=1.5
++scipy>=1.11
++nltk>=3.8
++rapidfuzz>=3.9
++altair>=5.3
